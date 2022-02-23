@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+
+    height: 100vh;
+    background-image: url('../pizza/img/img/bg.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+
+margin-top: 20px;
+display: flex;
+justify-content: space-between;
+}
+header nav{
+    display: flex;
+    flex:1 1 600px ;
+    justify-content:flex-end;
+    margin-right: 40px;
+    
+
+}
+header nav a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color:#fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+ header.logo{
+    width: 20px;
+    height: 20px;
+    flex: 0 1 150px;
+    margin-left: 30px;
+
+
+ }
+ header.logo img{
+
+     height: inherit;
+     width:50px;
+     margin-bottom: 50px;
+     padding-left: 20px;
+     
+ }
+ .main{
+
+    display: flex;
+    flex-direction: column;
+    flex:  1;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    padding: bottom 50px; ;
+ }
+ .main h1{
+     font-size: 6em /*1em =16px*/;
+     color:white;
+     height: inherit;
+     font-family: italic;
+     padding: bottom 100px;
+
+ }
+ .main h2{
+     height: inherit;
+     padding-bottom: 30px;
+     font-weight: 400;
+     color: white;
+
+ }
+
+ .main p{
+    color:white;
+    font-weight: 130;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .main h3{
+     padding-bottom: 30px;
+     height: inherit;
+ }
+ .button{
+     width: 250px;
+     padding: 20px 15px;
+     color:white;
+     border:2px solid white;
+     border-radius:5px;
+     margin-top: 40px;
+     color:white;
+     text-decoration: none;
+ }
+ .button:hover{
+     background-color:black;
+     border-color: #ccc;
+     transform: rotate(5deg);
+     transition: all 0.2s ease-in-out;
+ }
+ 
+
